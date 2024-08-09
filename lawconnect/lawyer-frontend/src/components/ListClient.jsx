@@ -46,7 +46,7 @@ const ListClient = () => {
 
   return (
     <div className='container'>
-      <h2 className='text-center' style={{marginTop:'10px'}}>List of Clients</h2>
+      <h2 className='text-center text-light' style={{marginTop:'10px'}}>List of Clients</h2>
       <button className="btn btn-primary mb-2" onClick={addNewClient}>Add Client</button>
       <table className='table table-striped table-bordered'>
         <thead>

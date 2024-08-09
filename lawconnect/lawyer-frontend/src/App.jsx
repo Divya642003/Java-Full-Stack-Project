@@ -11,6 +11,7 @@ import ViewClient from './components/ViewClient';
 
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import SignUpLawyer from './components/SignUpLawyer';
+import SignUpClient from './components/SignUpClient';
 
 function App() {
  
@@ -21,7 +22,10 @@ function App() {
        <Header/>
        <Routes>
 
-        <Route path='/signup' element = { <SignUpLawyer/>}></Route>
+        <Route path='/signupLawyer' element = { <SignUpLawyer/>}></Route>
+
+        <Route path='/signupClient' element = { <SignUpClient/>}></Route>
+
         {/* // http://localhost:3000/lawyer */}
            <Route path='/lawyer' element = { <ListLawyers/>}></Route>
 

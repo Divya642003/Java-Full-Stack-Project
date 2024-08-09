@@ -43,7 +43,7 @@ const ListLawyers = () => {
 
   return (
     <div className='container'>
-      <h2 className='text-center mb-6'style={{marginTop:'10px'}}>List of Lawyers</h2>
+      <h2 className='text-center mb-6 text-light'style={{marginTop:'10px'}}>List of Lawyers</h2>
       <button className="btn btn-primary mb-2" onClick={addNewLawyer}>Add Lawyer</button>
       <table className='table table-striped table-bordered'>
         <thead>
