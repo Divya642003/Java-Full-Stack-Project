@@ -1,6 +1,6 @@
 body{
     background-color:aliceblue;
-    
+    background-image: url("..//public//lawyer2.jpg");
     background-size:cover;
    background-attachment: fixed;
 }
